@@ -33,3 +33,5 @@ function updateIcon() {
     const current = root.getAttribute("data-theme");
     toggle.textContent = current === "dark" ? "☀️" : "🌙";
 }
+
+
