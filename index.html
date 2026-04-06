@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marcos Wyliam — Backend Engineer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+
+<nav>
+
+  <div class="inner">
+    <span class="nav-logo">Marcos Wyliam</span>
+    <ul class="nav-links">
+      <li><a href="sobre.html" class="active">Sobre</a></li>
+      <li><a href="#stack">Stack</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#exp">Experiência</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <button id="theme-toggle" class="theme-toggle">
+    🌙
+    </button>
+  </div>
+</nav>
+
+<div class="container">
+
+<!-- HERO -->
+<section class="hero">
+
+  <h1 class="fade-in">
+    Backend Engineer focado em<br>
+    <span>sistemas distribuídos de alta escala.</span>
+  </h1>
+
+  <p class="hero-desc fade-in">
+    +4 anos construindo APIs, microsserviços e pipelines de dados em produção.
+    Experiência com sistemas que processam milhões de requisições e grandes volumes financeiros.
+  </p>
+
+  <div class="hero-actions fade-in">
+    <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+    <a href="#contato" class="btn btn-ghost">Contato</a>
+  </div>
+
+</section>
+
+<!-- QUICK INFO -->
+<div class="status-bar">
+  <div class="status-item">
+    <span>São Luís, Brasil</span>
+  </div>
+  <div class="status-item">
+    <span>UTC−3</span>
+  </div>
+  <div class="status-item">
+    <span>Disponível para remoto</span>
+  </div>
+</div>
+
+<!-- STACK -->
+<section id="stack">
+  <div class="section-header">
+    <span class="section-title">Stack</span>
+  </div>
+
+  <div class="skills-grid">
+
+    <div class="skill-cell">
+      <div class="skill-cat">Linguagens</div>
+      <ul class="skill-list">
+        <li>Python</li>
+        <li>Go</li>
+      </ul>
+    </div>
+
+    <div class="skill-cell">
+      <div class="skill-cat">Backend</div>
+      <ul class="skill-list">
+        <li>FastAPI</li>
+        <li>Flask</li>
+        <li>REST</li>
+        <li>GraphQL</li>
+      </ul>
+    </div>
+
+    <div class="skill-cell">
+      <div class="skill-cat">Data & Storage</div>
+      <ul class="skill-list">
+        <li>PostgreSQL</li>
+        <li>Redis</li>
+      </ul>
+    </div>
+
+    <div class="skill-cell">
+      <div class="skill-cat">Infraestrutura</div>
+      <ul class="skill-list">
+        <li>Docker</li>
+        <li>Linux</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJETOS -->
+<section id="projetos">
+
+  <div class="section-header">
+    <span class="section-title">Projetos Selecionados</span>
+  </div>
+
+  <div class="projects-list">
+
+    <div class="project-item">
+      <div>
+        <div class="project-title">API Gateway — Orion</div>
+        <p class="project-desc">
+          Gateway distribuído com suporte a mais de 50k req/s e latência P99 &lt; 4ms.
+          Implementa rate limiting, circuit breaker e roteamento dinâmico.
+        </p>
+      </div>
+    </div>
+
+    <div class="project-item">
+      <div>
+        <div class="project-title">Pipeline de Dados em Tempo Real</div>
+        <p class="project-desc">
+          Sistema de ingestão e processamento com Kafka.
+          Processa mais de 2 milhões de eventos por hora com transformações configuráveis.
+        </p>
+      </div>
+    </div>
+
+    <div class="project-item">
+      <div>
+        <div class="project-title">Auth Service (RBAC + OAuth2)</div>
+        <p class="project-desc">
+          Serviço de autenticação com arquitetura zero-trust.
+          Controle de acesso granular e auditoria completa de eventos.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- EXPERIÊNCIA -->
+<section id="exp">
+
+  <div class="section-header">
+    <span class="section-title">Experiência</span>
+  </div>
+
+  <div class="exp-list">
+
+    <div class="exp-item">
+      <div class="exp-date">2022 — Atual</div>
+      <div>
+        <div class="exp-role">Senior Backend Engineer</div>
+        <div class="exp-company">Nubank</div>
+        <p class="exp-desc">
+          Desenvolvimento de sistemas de pagamento em Go.
+          Serviços responsáveis por mais de R$ 800M/dia com alta disponibilidade (99.98%).
+        </p>
+      </div>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-date">2020 — 2022</div>
+      <div>
+        <div class="exp-role">Backend Engineer</div>
+        <div class="exp-company">Loft</div>
+        <p class="exp-desc">
+          Plataforma de avaliação de imóveis.
+          Redução de processamento de 4 horas para menos de 10 minutos.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- CONTATO -->
+<section id="contato">
+
+  <div class="section-header">
+    <span class="section-title">Contato</span>
+  </div>
+
+  <div class="contact-grid">
+
+    <a class="contact-item" href="mailto:programadordarkness2004@gmail.com">
+      <div>
+        <div class="contact-label">Email</div>
+        <div class="contact-value">programadordarkness2004@gmail.com</div>
+      </div>
+    </a>
+
+    <a class="contact-item" href="https://github.com/marcosdary" target="_blank">
+      <div>
+        <div class="contact-label">GitHub</div>
+        <div class="contact-value">github.com/marcosdary</div>
+      </div>
+    </a>
+
+    <a class="contact-item" href="https://www.linkedin.com/" target="_blank">
+      <div>
+        <div class="contact-label">LinkedIn</div>
+        <div class="contact-value">linkedin.com</div>
+      </div>
+    </a>
+
+  </div>
+
+</section>
+
+<footer>
+  <span>© 2026 Marcos Wyliam</span>
+</footer>
+
+</div>
+
+<script src="js/index.js"></script>
+
+</body>
+</html>
