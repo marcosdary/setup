@@ -12,13 +12,11 @@
 <body>
 
 <nav>
-
   <div class="inner">
     <span class="nav-logo">Marcos Wyliam</span>
     <ul class="nav-links">
       <li><a href="sobre.html" class="active">Sobre</a></li>
-      <li><a href="#stack">Stack</a></li>
-      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#stack">Habilidades</a></li>
       <li><a href="#exp">Experiência</a></li>
       <li><a href="#contato">Contato</a></li>
     </ul>
@@ -34,13 +32,13 @@
 <section class="hero">
 
   <h1 class="fade-in">
-    Backend Engineer focado em<br>
-    <span>sistemas distribuídos de alta escala.</span>
+    Desenvolvedor Back-end Júnior<br>
+    <span>focado em APIs escaláveis e integração de sistemas.</span>
   </h1>
 
   <p class="hero-desc fade-in">
-    +4 anos construindo APIs, microsserviços e pipelines de dados em produção.
-    Experiência com sistemas que processam milhões de requisições e grandes volumes financeiros.
+    Desenvolvedor Back-end Júnior com experiência em desenvolvimento de APIs escaláveis, integração de sistemas e uso de tecnologias modernas como Python, FastAPI e Celery. Possuo conhecimento em bancos de dados relacionais e não relacionais, além de experiência com arquitetura de sistemas, mensageria assíncrona e integração com serviços externos, incluindo APIs de IA.<br><br>
+    Tenho foco em performance, segurança e organização de código, além de boa comunicação e colaboração em equipe.
   </p>
 
   <div class="hero-actions fade-in">
@@ -66,7 +64,7 @@
 <!-- STACK -->
 <section id="stack">
   <div class="section-header">
-    <span class="section-title">Stack</span>
+    <span class="section-title">Habilidades Técnicas</span>
   </div>
 
   <div class="skills-grid">
@@ -75,33 +73,48 @@
       <div class="skill-cat">Linguagens</div>
       <ul class="skill-list">
         <li>Python</li>
-        <li>Go</li>
       </ul>
     </div>
 
     <div class="skill-cell">
-      <div class="skill-cat">Backend</div>
+      <div class="skill-cat">Frameworks</div>
       <ul class="skill-list">
         <li>FastAPI</li>
         <li>Flask</li>
-        <li>REST</li>
-        <li>GraphQL</li>
+        <li>Celery</li>
+        <li>SQLAlchemy</li>
+        <li>Pydantic</li>
       </ul>
     </div>
 
     <div class="skill-cell">
-      <div class="skill-cat">Data & Storage</div>
+      <div class="skill-cat">Banco de Dados</div>
       <ul class="skill-list">
+        <li>MySQL</li>
         <li>PostgreSQL</li>
         <li>Redis</li>
       </ul>
     </div>
 
     <div class="skill-cell">
-      <div class="skill-cat">Infraestrutura</div>
+      <div class="skill-cat">Arquitetura &amp; Ferramentas</div>
       <ul class="skill-list">
+        <li>REST API</li>
+        <li>GraphQL</li>
+        <li>JWT</li>
         <li>Docker</li>
         <li>Linux</li>
+        <li>Git / GitHub</li>
+      </ul>
+    </div>
+
+    <div class="skill-cell">
+      <div class="skill-cat">Integrações</div>
+      <ul class="skill-list">
+        <li>APIs de terceiros</li>
+        <li>Resend (e-mails)</li>
+        <li>Dropbox</li>
+        <li>Groq / OpenRouter (IA)</li>
       </ul>
     </div>
 
@@ -112,37 +125,43 @@
 <section id="projetos">
 
   <div class="section-header">
-    <span class="section-title">Projetos Selecionados</span>
+    <span class="section-title">Projetos Relevantes</span>
   </div>
 
   <div class="projects-list">
 
     <div class="project-item">
       <div>
-        <div class="project-title">API Gateway — Orion</div>
+        <div class="project-title">API de Autenticação</div>
         <p class="project-desc">
-          Gateway distribuído com suporte a mais de 50k req/s e latência P99 &lt; 4ms.
-          Implementa rate limiting, circuit breaker e roteamento dinâmico.
+          Implementação de autenticação com JWT e API Key. Criptografia de senhas com hash seguro. Validação de dados com Pydantic.
         </p>
       </div>
     </div>
 
     <div class="project-item">
       <div>
-        <div class="project-title">Pipeline de Dados em Tempo Real</div>
+        <div class="project-title">API com Integração de IA</div>
         <p class="project-desc">
-          Sistema de ingestão e processamento com Kafka.
-          Processa mais de 2 milhões de eventos por hora com transformações configuráveis.
+          Integração com provedores de IA (Groq). Sistema de mensagens personalizadas (ex: engajamento para Instagram). Funcionalidades de cadastro, login e histórico de conversas.
         </p>
       </div>
     </div>
 
     <div class="project-item">
       <div>
-        <div class="project-title">Auth Service (RBAC + OAuth2)</div>
+        <div class="project-title">Sistema de Tarefas Assíncronas</div>
         <p class="project-desc">
-          Serviço de autenticação com arquitetura zero-trust.
-          Controle de acesso granular e auditoria completa de eventos.
+          Uso de Celery para processamento em background. Envio de e-mails via integração com Resend. Redução significativa de carga da API principal.
+        </p>
+      </div>
+    </div>
+
+    <div class="project-item">
+      <div>
+        <div class="project-title">API com GraphQL</div>
+        <p class="project-desc">
+          Consulta eficiente de dados com GraphQL. Melhoria de performance e redução de consumo de recursos.
         </p>
       </div>
     </div>
@@ -161,25 +180,45 @@
   <div class="exp-list">
 
     <div class="exp-item">
-      <div class="exp-date">2022 — Atual</div>
+      <div class="exp-date">Estágio • 1 ano</div>
       <div>
-        <div class="exp-role">Senior Backend Engineer</div>
-        <div class="exp-company">Nubank</div>
+        <div class="exp-role">Desenvolvedor Back-end Júnior (Estágio)</div>
+        <div class="exp-company">Luz e Vida Representações</div>
         <p class="exp-desc">
-          Desenvolvimento de sistemas de pagamento em Go.
-          Serviços responsáveis por mais de R$ 800M/dia com alta disponibilidade (99.98%).
+          Desenvolvimento, manutenção e otimização de APIs. Integração de sistemas e serviços externos. Modelagem de banco de dados e implementação de regras de negócio. Garantia de performance, segurança e escalabilidade. Colaboração com equipes multidisciplinares.
         </p>
       </div>
     </div>
 
-    <div class="exp-item">
-      <div class="exp-date">2020 — 2022</div>
+  </div>
+
+</section>
+
+<!-- IDIOMAS E CURSOS (reutilizando visual de projetos) -->
+<section id="idiomas-cursos">
+
+  <div class="section-header">
+    <span class="section-title">Idiomas &amp; Cursos Complementares</span>
+  </div>
+
+  <div class="projects-list">
+
+    <div class="project-item">
       <div>
-        <div class="exp-role">Backend Engineer</div>
-        <div class="exp-company">Loft</div>
-        <p class="exp-desc">
-          Plataforma de avaliação de imóveis.
-          Redução de processamento de 4 horas para menos de 10 minutos.
+        <div class="project-title">Idiomas</div>
+        <p class="project-desc">
+          • Português — Nativo<br>
+          • Inglês — Intermediário<br>
+          • Espanhol — Básico
+        </p>
+      </div>
+    </div>
+
+    <div class="project-item">
+      <div>
+        <div class="project-title">Cursos Complementares</div>
+        <p class="project-desc">
+          Informática — 2016/2018
         </p>
       </div>
     </div>
@@ -197,10 +236,10 @@
 
   <div class="contact-grid">
 
-    <a class="contact-item" href="mailto:programadordarkness2004@gmail.com">
+    <a class="contact-item" href="mailto:marcos-wyliam@horizontecnology.com">
       <div>
         <div class="contact-label">Email</div>
-        <div class="contact-value">programadordarkness2004@gmail.com</div>
+        <div class="contact-value">marcos-wyliam@horizontecnology.com</div>
       </div>
     </a>
 
@@ -211,14 +250,14 @@
       </div>
     </a>
 
-    <a class="contact-item" href="https://www.linkedin.com/" target="_blank">
+    <a class="contact-item" href="https://www.linkedin.com/in/marcos-wyliam-791b882a6/" target="_blank">
       <div>
         <div class="contact-label">LinkedIn</div>
-        <div class="contact-value">linkedin.com</div>
+        <div class="contact-value">linkedin.com/in/marcos-wyliam-791b882a6</div>
       </div>
     </a>
 
-    <a class="contact-item" href="https://www.dropbox.com/scl/fi/8biha5qs1cwcw7w0zarbq/Back-End-Engineer.pdf?rlkey=opkgquc39520wmyvohkq3ix9i&st=d977cw9a&dl=1" target="_blank">
+    <a class="contact-item" href="https://www.dropbox.com/scl/fi/s6e918vzge4zmp6oiteqc/Curr-culo-T-cnico.pdf?rlkey=0v9rh2v0jtq3ffehsfqm27zob&st=6l5jynys&dl=1" target="_blank">
       <div>
         <div class="contact-label">Currículo</div>
         <div class="contact-value">Baixar PDF</div>
