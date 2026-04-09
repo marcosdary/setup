@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Marcos Wyliam — Backend Engineer</title>
+<title>Marcos Wyliam - Backend Engineer</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/index.css">
@@ -15,18 +15,18 @@
   <div class="inner">
     <span class="nav-logo">Marcos Wyliam</span>
     <ul class="nav-links">
-      <li><a href="sobre.html" class="active">Sobre</a></li>
-      <li><a href="#stack">Habilidades</a></li>
-      <li><a href="#formacao">Formação</a></li>
-      <li><a href="#exp">Experiência</a></li>
-      <li><a href="#contato">Contato</a></li>
+      <li><a href="sobre-en.html" class="active">About</a></li>
+      <li><a href="#stack">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
     <div class="nav-actions">
-      <div class="lang-switch" aria-label="Seletor de idioma">
-        <a href="index.html" class="lang-link is-active">PT</a>
-        <a href="index-en.html" class="lang-link">EN</a>
+      <div class="lang-switch" aria-label="Language switcher">
+        <a href="index.html" class="lang-link">PT</a>
+        <a href="index-en.html" class="lang-link is-active">EN</a>
       </div>
-      <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
       🌙
       </button>
     </div>
@@ -35,49 +35,46 @@
 
 <div class="container">
 
-<!-- HERO -->
 <section class="hero">
 
   <h1 class="fade-in">
-    Desenvolvedor Back-end Júnior<br>
-    <span>focado em APIs escaláveis e integração de sistemas.</span>
+    Junior Back-end Developer<br>
+    <span>focused on scalable APIs and system integration.</span>
   </h1>
 
   <p class="hero-desc fade-in">
-    Desenvolvedor Back-end Júnior com experiência em desenvolvimento de APIs escaláveis, integração de sistemas e uso de tecnologias modernas como Python, FastAPI e Celery. Possuo conhecimento em bancos de dados relacionais e não relacionais, além de experiência com arquitetura de sistemas, mensageria assíncrona e integração com serviços externos, incluindo APIs de IA.<br><br>
-    Tenho foco em performance, segurança e organização de código, além de boa comunicação e colaboração em equipe.
+    Junior Back-end Developer with experience building scalable APIs, integrating systems, and working with modern technologies such as Python, FastAPI, and Celery. I have knowledge of relational and non-relational databases, along with experience in system architecture, asynchronous messaging, and integrations with external services, including AI APIs.<br><br>
+    My work is guided by performance, security, code organization, and strong team collaboration.
   </p>
 
   <div class="hero-actions fade-in">
-    <a href="#projetos" class="btn btn-primary">Ver projetos</a>
-    <a href="#contato" class="btn btn-ghost">Contato</a>
+    <a href="#projects" class="btn btn-primary">View projects</a>
+    <a href="#contact" class="btn btn-ghost">Contact</a>
   </div>
 
 </section>
 
-<!-- QUICK INFO -->
 <div class="status-bar">
   <div class="status-item">
-    <span>São Luís, Brasil</span>
+    <span>Sao Luis, Brazil</span>
   </div>
   <div class="status-item">
-    <span>UTC−3</span>
+    <span>UTC-3</span>
   </div>
   <div class="status-item">
-    <span>Disponível para remoto</span>
+    <span>Available for remote work</span>
   </div>
 </div>
 
-<!-- STACK -->
 <section id="stack">
   <div class="section-header">
-    <span class="section-title">Habilidades Técnicas</span>
+    <span class="section-title">Technical Skills</span>
   </div>
 
   <div class="skills-grid">
 
     <div class="skill-cell">
-      <div class="skill-cat">Linguagens</div>
+      <div class="skill-cat">Languages</div>
       <ul class="skill-list">
         <li>Python</li>
       </ul>
@@ -95,7 +92,7 @@
     </div>
 
     <div class="skill-cell">
-      <div class="skill-cat">Banco de Dados</div>
+      <div class="skill-cat">Databases</div>
       <ul class="skill-list">
         <li>MySQL</li>
         <li>PostgreSQL</li>
@@ -104,7 +101,7 @@
     </div>
 
     <div class="skill-cell">
-      <div class="skill-cat">Arquitetura &amp; Ferramentas</div>
+      <div class="skill-cat">Architecture &amp; Tooling</div>
       <ul class="skill-list">
         <li>REST API</li>
         <li>GraphQL</li>
@@ -116,59 +113,58 @@
     </div>
 
     <div class="skill-cell">
-      <div class="skill-cat">Integrações</div>
+      <div class="skill-cat">Integrations</div>
       <ul class="skill-list">
-        <li>APIs de terceiros</li>
-        <li>Resend (e-mails)</li>
+        <li>Third-party APIs</li>
+        <li>Resend (email)</li>
         <li>Dropbox</li>
-        <li>Groq / OpenRouter (IA)</li>
+        <li>Groq / OpenRouter (AI)</li>
       </ul>
     </div>
 
   </div>
 </section>
 
-<!-- PROJETOS -->
-<section id="projetos">
+<section id="projects">
 
   <div class="section-header">
-    <span class="section-title">Projetos Relevantes</span>
+    <span class="section-title">Selected Projects</span>
   </div>
 
   <div class="projects-list">
 
     <div class="project-item">
       <div>
-        <div class="project-title">API de Autenticação</div>
+        <div class="project-title">Authentication API</div>
         <p class="project-desc">
-          Implementação de autenticação com JWT e API Key. Criptografia de senhas com hash seguro. Validação de dados com Pydantic.
+          JWT and API key authentication implementation. Password encryption with secure hashing. Data validation with Pydantic.
         </p>
       </div>
     </div>
 
     <div class="project-item">
       <div>
-        <div class="project-title">API com Integração de IA</div>
+        <div class="project-title">AI Integration API</div>
         <p class="project-desc">
-          Integração com provedores de IA (Groq). Sistema de mensagens personalizadas (ex: engajamento para Instagram). Funcionalidades de cadastro, login e histórico de conversas.
+          Integration with AI providers such as Groq. Personalized messaging system for use cases like Instagram engagement. Includes signup, login, and conversation history features.
         </p>
       </div>
     </div>
 
     <div class="project-item">
       <div>
-        <div class="project-title">Sistema de Tarefas Assíncronas</div>
+        <div class="project-title">Asynchronous Task System</div>
         <p class="project-desc">
-          Uso de Celery para processamento em background. Envio de e-mails via integração com Resend. Redução significativa de carga da API principal.
+          Celery-based background processing. Email delivery through Resend integration. Significant load reduction on the main API.
         </p>
       </div>
     </div>
 
     <div class="project-item">
       <div>
-        <div class="project-title">API com GraphQL</div>
+        <div class="project-title">GraphQL API</div>
         <p class="project-desc">
-          Consulta eficiente de dados com GraphQL. Melhoria de performance e redução de consumo de recursos.
+          Efficient data queries with GraphQL. Improved performance and reduced resource consumption.
         </p>
       </div>
     </div>
@@ -177,21 +173,20 @@
 
 </section>
 
-<!-- FORMAÇÃO ACADÊMICA -->
-<section id="formacao">
+<section id="education">
 
   <div class="section-header">
-    <span class="section-title">Formação Acadêmica</span>
+    <span class="section-title">Education</span>
   </div>
 
   <div class="projects-list">
 
     <div class="project-item">
       <div>
-        <div class="project-title">Engenharia da Computação</div>
+        <div class="project-title">Computer Engineering</div>
         <p class="project-desc">
-          Universidade Ceuma, São Luís, Maranhão<br>
-          Período: 2022.2 – 2026.12
+          Ceuma University, Sao Luis, Maranhao<br>
+          Period: 2022.2 - 2026.12
         </p>
       </div>
     </div>
@@ -200,22 +195,21 @@
 
 </section>
 
-<!-- EXPERIÊNCIA -->
-<section id="exp">
+<section id="experience">
 
   <div class="section-header">
-    <span class="section-title">Experiência</span>
+    <span class="section-title">Experience</span>
   </div>
 
   <div class="exp-list">
 
     <div class="exp-item">
-      <div class="exp-date">Estágio • 1 ano</div>
+      <div class="exp-date">Internship • 1 year</div>
       <div>
-        <div class="exp-role">Desenvolvedor Back-end Júnior (Estágio)</div>
-        <div class="exp-company">Luz e Vida Representações</div>
+        <div class="exp-role">Junior Back-end Developer Intern</div>
+        <div class="exp-company">Luz e Vida Representacoes</div>
         <p class="exp-desc">
-          Desenvolvimento, manutenção e otimização de APIs. Integração de sistemas e serviços externos. Modelagem de banco de dados e implementação de regras de negócio. Garantia de performance, segurança e escalabilidade. Colaboração com equipes multidisciplinares.
+          Development, maintenance, and optimization of APIs. Integration of systems and external services. Database modeling and business rule implementation. Focus on performance, security, and scalability. Collaboration with multidisciplinary teams.
         </p>
       </div>
     </div>
@@ -224,47 +218,43 @@
 
 </section>
 
-<!-- IDIOMAS E CURSOS (reutilizando visual de projetos) -->
-<section id="idiomas-cursos">
+<section id="languages-courses">
 
   <div class="section-header">
-    <span class="section-title">Idiomas &amp; Cursos Complementares</span>
+    <span class="section-title">Languages &amp; Additional Courses</span>
   </div>
 
   <div class="projects-list">
 
     <div class="project-item">
       <div>
-        <div class="project-title">Idiomas</div>
+        <div class="project-title">Languages</div>
         <p class="project-desc">
-          • Português — Nativo<br>
-          • Inglês — Intermediário<br>
-          • Espanhol — Básico
+          Portuguese - Native<br>
+          English - Intermediate<br>
+          Spanish - Basic
         </p>
       </div>
     </div>
 
     <div class="project-item">
       <div>
-        <div class="project-title">Cursos Complementares</div>
+        <div class="project-title">Additional Courses</div>
         <p class="project-desc">
-          • Informática — 2016/2018<br>
-          • Inglês Avançado — 2016/2017<br>
+          Computer Skills - 2016/2018<br>
+          Advanced English - 2016/2017<br>
         </p>
       </div>
     </div>
-
-    
 
   </div>
 
 </section>
 
-<!-- CONTATO -->
-<section id="contato">
+<section id="contact">
 
   <div class="section-header">
-    <span class="section-title">Contato</span>
+    <span class="section-title">Contact</span>
   </div>
 
   <div class="contact-grid">
@@ -292,8 +282,8 @@
 
     <a class="contact-item" href="https://www.dropbox.com/scl/fi/s6e918vzge4zmp6oiteqc/Curr-culo-T-cnico.pdf?rlkey=0v9rh2v0jtq3ffehsfqm27zob&st=6l5jynys&dl=1" target="_blank">
       <div>
-        <div class="contact-label">Currículo</div>
-        <div class="contact-value">Baixar PDF</div>
+        <div class="contact-label">Resume</div>
+        <div class="contact-value">Download PDF</div>
       </div>
       <span class="contact-icon">↓</span>
     </a>
